@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>register for events  </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type='text/javascript' src='js/mobile.js'></script>
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="header">
+		<div id="header">
+			<h1>
+				<a href="https://dhishna.org/">DISHNA CUSAT <span>TECH FEST</span></a>
+			</h1>
+	
+		
+		<ul id="navigation">
+			
+			<li>
+				<a href="about.html">About</a>
+			</li>
+			
+					<li>
+						<a href="Register for events.html">Register for events</a>
+			</li>
+			
+		</ul>
+	</div>
+	<div id="body">
+		<h2>register for events</h2>
+		
+		<form  id="events">
+			<h3>Event</h3>
+			<label for="name">
+				<span>Name</span>
+				<input type="text" id="name">
+			</label>
+			<label for="caption">
+				<span>Caption</span>
+				<input type="text" id="caption">
+			</label>
+			<label for="description">
+				<span>Description</span>
+				<textarea name="description" id="description" cols="30" rows="10"></textarea>
+			</label>
+			</label><br>
+			<label>
+				<span>
+					Is registration open?
+				</span>
+				<select id ="status" name="status">
+					<option value="open">open</option>
+					<option value="close">close</option>
+				</select><br>
+			</label>
+			<H3>Cordinator:</H3>
+			<label for="NAME">
+				<span>Name</span>
+				<input type="text" id="NAME">
+			</label><BR>
+			<label for="phone number">
+				<span>Phone number</span>
+				<input type="text" id="phone">
+			</label><br>
+			<label for="Image">
+				<span>Image</span>
+				<input type="file" name="pic" accept="image/*" id="imgInp" onchange="previewFile()">
+				<img id="preview" src="" alt="your image" height="auto" width="448px" style="display: none;">
+			</label><br>
+			<button type="submit">Submit</button>
+			<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+		    <script src="firebase.js"></script>	
+		</form>
+        <div class="alert">Your message has been sent</div>
+    
+	</div>
+	<div id="footer">
+		<div>
+			<span>CUSAT, Kalamassery, Kochi | 9744416508</span>
+
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<a href="https://www.facebook.com/dhishna.cusat/" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/dhishna.cusat/?hl=en" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCxa_SzyC6Ylv2M19RGVCArg" class="fa fa-youtube"></a>
+
+			<p>
+				&copy; 2020 by team ABZL &amp; Cochin University Of Science And Technology All rights reserved.
+			</p>
+		</div>
+	   <div id="connect">
+			
+		</div>
+	</div>
+	
+</body>
+
+
+</html>
+
